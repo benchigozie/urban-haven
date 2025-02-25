@@ -1,0 +1,41 @@
+@import "tailwindcss";
+
+@theme {
+  --color-primary: #070707;  /* Dark background */
+  --color-secondary: #3E2723; /* Wood brown */
+  --color-accent: #A67B5B;    /* Oak brown */
+  --color-highlight: #FFD180; /* Soft amber */
+  --color-text: #E0E0E0;      /* Off-white text */
+
+  --font-head-1: "Noto Serif Display", serif;
+}
+
+@font-face {
+  font-family: 'Noto Serif Display';
+  src: url('/public/fonts/NotoSerifDisplay-Regular.ttf') format('truetype');
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Noto Serif Display';
+  src: url('/fonts/NotoSerifDisplay-Bold.ttf') format('truetype');
+  font-weight: 700;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Noto Serif Display';
+  src: url('/fonts/NotoSerifDisplay-Italic.ttf') format('truetype');
+  font-weight: 400;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'Noto Serif Display';
+  src: url('/fonts/NotoSerifDisplay-BoldItalic.ttf') format('truetype');
+  font-weight: 700;
+  font-style: italic;
+}
+
+
