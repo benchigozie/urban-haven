@@ -8,6 +8,8 @@
   --color-text: #E0E0E0;      /* Off-white text */
 
   --font-head-1: "Noto Serif Display", serif;
+  --font-poppins:  "Poppins", sans-serif;
+
 }
 
 @font-face {
@@ -38,4 +40,14 @@
   font-style: italic;
 }
 
+@font-face {
+  font-family: 'Poppins';
+  src: url('/fonts/Poppins-Regular.ttf') format('truetype');
+  font-weight: 400;
+  font-style: normal;
+}
+
+a:hover {
+  cursor: pointer;
+}
 
