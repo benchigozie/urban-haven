@@ -11,13 +11,13 @@ import Nav from './components/Nav';
 export default function App() {
   return (
     <div>
-        <Nav/>
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/services" element={<Services />} />
           <Route path="/portfolio" element={<Portfolio />} />
           <Route path="/contact" element={<Contact />} />
         </Routes>
+        <Nav />
     </div>
 
 
