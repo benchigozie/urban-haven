@@ -7,13 +7,14 @@
 
 @theme {
   --color-primary: #070707;  /* Dark background */
-  --color-secondary: #3E2723; /* Wood brown */
+  --color-secondary: #453015; /* Wood brown */
   --color-accent: #A67B5B;    /* Oak brown */
   --color-highlight: #FFD180; /* Soft amber */
   --color-text: #E0E0E0;      /* Off-white text */
 
   --font-head-1: "Noto Serif Display", serif;
   --font-poppins:  "Poppins", sans-serif;
+  --font-cormorant: "Cormorant", serif;
 
 }
 
@@ -28,7 +29,7 @@
   font-family: 'Noto Serif Display';
   src: url('/fonts/NotoSerifDisplay-Bold.ttf') format('truetype');
   font-weight: 700;
-  font-style: bold;
+  font-style: normal;
 }
 
 @font-face {
@@ -49,6 +50,13 @@
   font-family: 'Poppins';
   src: url('/fonts/Poppins-Regular.ttf') format('truetype');
   font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Cormorant';
+  src: url('/fonts/Cormorant-Regular.ttf') format('truetype');
+  font-weight: normal;
   font-style: normal;
 }
 
