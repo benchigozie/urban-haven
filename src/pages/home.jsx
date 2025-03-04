@@ -1,7 +1,10 @@
 import React from 'react'
 import Hero from '../components/hero';
-import Nav from '../components/Nav';
 import Welcome from '../components/welcome';
+import AboutUs from '../components/aboutus';
+import Testimonials from '../components/testimonials';
+import Footer from '../components/footer';
+import Faqs from '../components/faqs';
 
 function Home() {
   return (
@@ -10,6 +13,10 @@ function Home() {
       <div className='relative bg-primary flex flex-col items-center top-16 md:top-0'>
         <div className='max-w-[var(--max-width)] w-11/12 md:w-4/5'>
         <Welcome />
+        <AboutUs />
+        <Testimonials />
+        <Faqs />
+        <Footer />
         </div>
      
       </div>

@@ -7,7 +7,7 @@
 
 @theme {
   --color-primary: #070707;  /* Dark background */
-  --color-secondary: #453015; /* Wood brown */
+  --color-secondary: #21190e; /* Wood brown */
   --color-accent: #A67B5B;    /* Oak brown */
   --color-highlight: #FFD180; /* Soft amber */
   --color-text: #E0E0E0;      /* Off-white text */
@@ -54,6 +54,13 @@
 }
 
 @font-face {
+  font-family: 'Poppins';
+  src: url('/fonts/Poppins-Light.ttf') format('truetype');
+  font-weight: 300;
+  font-style: normal;
+}
+
+@font-face {
   font-family: 'Cormorant';
   src: url('/fonts/Cormorant-Regular.ttf') format('truetype');
   font-weight: normal;
@@ -67,6 +74,7 @@ a:hover {
 @layer base {
   :root {
     --hero-bg: url('/src/assets/heroimage.webp');
+    --about-image: url('/src/assets/about.webp');
   }
 }
 
