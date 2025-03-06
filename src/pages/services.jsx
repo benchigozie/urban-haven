@@ -1,7 +1,8 @@
 import React from 'react'
 import Footer from '../components/footer';
 import ContactSection from '../components/contactsection';
-import { FaCouch, FaRulerCombined, FaPaintRoller } from "react-icons/fa";
+import { motion } from 'framer-motion';
+
 
 import interiorDesignImg from '../assets/interiordesign.webp';
 import spacePlanningImg from '../assets/spaceplanning.webp';
@@ -25,13 +26,19 @@ function Services() {
       <div className='max-w-[var(--max-width)] w-11/12 md:w-4/5'>
         <h2 className="text-3xl font-bold font-cormorant text-center mb-8 text-accent">Our Services</h2>
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 max-w-5xl mx-auto px-4 font-poppins mb-28">
-          {services.map((service) => (
-            <div key={service.id} className="p-6 bg-[#161617] shadow-lg rounded-lg flex flex-col items-center text-center text-text transition hover:scale-105">
-              <img src={service.image} alt={service.title} className="w-40 h-40 mb-4 rounded-full object-cover" />
-              <h3 className="text-xl font-semibold">{service.title}</h3>
-              <p>{service.description}</p>
-            </div>
-          ))}
+        {services.map((service, index) => (
+          <motion.div
+            key={service.id}
+            initial={{ opacity: 0, y: 50 }}
+            animate={{ opacity: 1, y: 0 }}
+            transition={{ duration: 0.8, delay: index * 0.2, ease: "easeOut"}}
+            className="p-6 bg-[#161617] shadow-lg rounded-lg flex flex-col items-center text-center text-text"
+          >
+            <img src={service.image} alt={service.title} className="w-40 h-40 mb-4 rounded-full object-cover" />
+            <h3 className="text-xl font-semibold text-highlight">{service.title}</h3>
+            <p>{service.description}</p>
+          </motion.div>
+        ))}
         </div>
         <ContactSection />
 
