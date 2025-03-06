@@ -5,7 +5,7 @@ function Question({ question, answer }) {
 
   const [showAnswer, setShowAnswer] = useState(false);
   return (
-    <div className='text-text rounded-lg  font-poppins bg-gradient-to-b from-["#141414"] to-gray-800 px-6 py-6'>
+    <div className='text-text rounded-lg  font-poppins bg-gradient-to-b from-["#141414"] to-[#161617] px-6 py-6'>
       <div className="flex justify-between cursor-pointer" onClick={() => setShowAnswer(!showAnswer)} >
       <p className='text-lg'>{question}</p>
       <FiChevronDown 

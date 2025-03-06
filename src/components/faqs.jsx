@@ -3,8 +3,8 @@ import Question from './question';
 
 function Faqs() {
   return (
-    <div className='flex flex-col gap-10'>
-        <h3 className='font-cormorant text-accent text-3xl text-center'>Frequently Asked Questions</h3>
+    <div className='flex flex-col gap-10 md:py-10 mb-24'>
+        <h3 className='font-cormorant text-accent text-3xl font-bold text-center'>Frequently Asked Questions</h3>
         <div className='flex flex-col gap-4'>
         <Question 
           question="How long does it take?"

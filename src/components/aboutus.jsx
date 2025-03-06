@@ -34,7 +34,7 @@ function AboutUs() {
       initial={{ opacity: 0, y: 80 }}
       animate={isVisible ? { opacity: 1, y: 0 } : {}}
       transition={{ duration: 0.8, ease: "easeOut" }}
-      className="bg-secondary py-10 md:py-16 rounded-2xl flex flex-col gap-12"
+      className="bg-secondary py-10 md:py-16 rounded-2xl flex flex-col gap-12 mb-20"
     >
       <h2 className='text-accent font-cormorant text-3xl text-center'>About Us</h2>
       <div className='flex flex-col md:flex-row  md:px-10 justify-between items-center gap-8 md:gap-0 font-poppins'>

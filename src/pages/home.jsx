@@ -5,6 +5,8 @@ import AboutUs from '../components/aboutus';
 import Testimonials from '../components/testimonials';
 import Footer from '../components/footer';
 import Faqs from '../components/faqs';
+import Howitworks from '../components/howitworks';
+import ContactSection from '../components/contactsection';
 
 function Home() {
   return (
@@ -15,7 +17,9 @@ function Home() {
         <Welcome />
         <AboutUs />
         <Testimonials />
+        <Howitworks />
         <Faqs />
+        <ContactSection />
         <Footer />
         </div>
      
