@@ -85,8 +85,8 @@ function Portfolio() {
 
               <div className="relative w-full h-64 group">
                 <img src={project.image} alt={project.title} className="w-full h-full object-cover" />
-                <div className="absolute inset-0 bg-black bg-opacity-50 flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity">
-                  <button className="bg-white text-black px-4 py-2 rounded-lg shadow-md cursor-pointer">
+                <div className="absolute inset-0 bg-black/60 flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity">
+                  <button className="bg-white text-accent px-4 py-2 rounded-lg shadow-md cursor-pointer">
                     Learn More
                   </button>
                 </div>
