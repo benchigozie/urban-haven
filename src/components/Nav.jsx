@@ -14,7 +14,7 @@ function Nav() {
   return (
 
     <div className='flex fixed flex-col items-center md:py-4 w-full top-0'>
-      <nav className='bg-gray-100 w-full md:w-4/5 px-8 py-1 md:rounded-full flex justify-between items-center z-10 shadow-[0_2px_15px_rgba(125,125,125,0.7)] max-w-[var(--max-width)]'>
+      <nav className='bg-gray-100 w-full md:w-4/5 px-8 py-1 md:py-4 md:rounded-full flex justify-between items-center z-10 shadow-[0_2px_15px_rgba(125,125,125,0.7)] max-w-[var(--max-width)]'>
         <a href="/">
           <img src={blacklogo} alt="Urban Haven Logo" className="h-8 w-auto" />
         </a>
