@@ -4,7 +4,7 @@ import { FaArrowRight } from "react-icons/fa";
 
 function Hero() {
   return (
-    <section className="relative top-16 md:top-0 w-full h-[80vh] md:h-screen bg-cover bg-center bg-[image:var(--hero-bg)] z-0 flex items-center opacity-0 animate-fade-in justify-center">
+    <section className="relative top-12 md:top-0 w-full h-[80vh] md:h-screen bg-cover bg-center bg-[image:var(--hero-bg)] z-0 flex items-center opacity-0 animate-fade-in justify-center">
       <div className="absolute inset-x-0 top-0 h-1/5 md:h-1/3 bg-gradient-to-b from-black/100 via-black/80 to-transparent"></div>
 
       <div className='bg-[var(--gray-bg)] h-full flex items-center justify-center w-full flex-col gap-4'>

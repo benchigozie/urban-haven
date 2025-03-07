@@ -9,7 +9,7 @@ function Hamburger( { isOpen, setIsOpen }) {
     return (
         <button
             onClick={() => setIsOpen(!isOpen)}
-            className="md:hidden p-2"
+            className="md:hidden p-1 md:p-2"
         >
             <AnimatePresence mode="wait">
                 {isOpen ? (
