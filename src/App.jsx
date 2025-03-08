@@ -6,10 +6,13 @@ import Services from "./pages/services";
 import Portfolio from "./pages/portfolio";
 
 import Nav from './components/Nav';
+import ScrollToTop from './components/scrolltotop';
 
 export default function App() {
+
   return (
     <div>
+      <ScrollToTop />
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/services" element={<Services />} />
