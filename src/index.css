@@ -2,7 +2,7 @@
 
 :root {
   --max-width: 1400px;
-  --gray-bg: rgba(0, 0, 0, 0.5);
+  --gray-bg: rgba(0, 0, 0, 0.6);
 }
 
 @theme {
